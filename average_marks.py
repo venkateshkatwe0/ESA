@@ -3,6 +3,7 @@ mark1=int(input("Enter marks of marks 1: "))
 mark2=int(input("Enter marks of marks 2: "))
 mark3=int(input("Enter marks of marks 3: "))
 average=(mark1+mark2+mark3)/3
+print("Average Marks:",average)
 if average>=90:
     print("Grade: S")
 elif average>=75:
